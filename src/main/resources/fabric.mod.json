@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "webrocket",
+  "version": "${version}",
+  "name": "Web Rocket",
+  "description": "Firework-boosted elytra flight ignores cobwebs. Press = to open the menu.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.webrocket.WebRocket"],
+    "client": ["com.example.webrocket.client.WebRocketClient"]
+  },
+  "mixins": ["webrocket.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
